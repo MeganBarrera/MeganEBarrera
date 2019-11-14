@@ -26,4 +26,21 @@ module.exports = (app)=>{
         res.render("contact")
     });
 
+    //---------AJAX CALLS---------//
+    //Template
+    app.get("/portfolio-details1", (req, res)=>{
+        res.render("portfolio-details1")
+    });
+
+    //DATA
+    var portfolio = require('../data/portfolio.js');
+    // Routes
+    app.get("/:title", function(req, res) {
+        for (var i = 0; i < portfolio.length; i++) {
+        if (portfolio[i].title === req.params.title) {
+            return res.render("portfolio-details1", portfolio[i]);
+        }
+        }
+    });
+
 };
