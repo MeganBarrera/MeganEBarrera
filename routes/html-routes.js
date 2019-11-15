@@ -35,9 +35,9 @@ module.exports = (app)=>{
     //DATA
     var portfolio = require('../data/portfolio.js');
     // Routes
-    app.get("/:title", function(req, res) {
+    app.get("/:url", function(req, res) {
         for (var i = 0; i < portfolio.length; i++) {
-        if (portfolio[i].title === req.params.title) {
+        if (portfolio[i].url === req.params.url) {
             return res.render("portfolio-details1", portfolio[i]);
         }
         }

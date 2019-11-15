@@ -8961,7 +8961,7 @@ h4.pro-sidebar-title {
 .details-category-social {
     display: flex;
     justify-content: space-between;
-    margin: 21px 0 0;
+    margin: 21px 0;
 }
 
 .details-category li {
@@ -9025,7 +9025,7 @@ h4.pro-sidebar-title {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
-    margin: 0 0 26px;
+    margin: 26px 0;
     text-transform: uppercase;
 }
 
