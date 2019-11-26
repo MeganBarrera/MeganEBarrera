@@ -11699,6 +11699,7 @@ blockquote.blockquote-style2 {
     background-color: #f1f2f6;
 }
 
+/*Tools Social Main Color*/
 .single-social-content1.social-main-color li a {
     color: #fff;
 }
@@ -11723,8 +11724,8 @@ blockquote.blockquote-style2 {
     border: 1px solid transparent;
 }
 
-.single-social-content1 li a.vimeo {
-    background-color: #1bafe7;
+.single-social-content1 li a.linkedin {
+    background-color: #0e76a8;
     border: 1px solid transparent;
 }
 
@@ -11733,11 +11734,11 @@ blockquote.blockquote-style2 {
     border: 1px solid transparent;
 }
 
-.single-social-content1 li a.dribbble {
-    background-color: #fd5995;
+.single-social-content1 li a.heroku {
+    background-color: #6567a5;
     border: 1px solid transparent;
 }
-
+/*Tools Social Main Color Hover*/
 .single-social-content1 li a.facebook:hover {
     background-color: transparent;
     border: 1px solid #4565c7;
@@ -11762,10 +11763,10 @@ blockquote.blockquote-style2 {
     color: #e52e39;
 }
 
-.single-social-content1 li a.vimeo:hover {
+.single-social-content1 li a.linkedin:hover {
     background-color: transparent;
-    border: 1px solid #1bafe7;
-    color: #1bafe7;
+    border: 1px solid #0e76a8;
+    color: #0e76a8;
 }
 
 .single-social-content1 li a.google:hover {
@@ -11774,11 +11775,13 @@ blockquote.blockquote-style2 {
     color: #e73d30;
 }
 
-.single-social-content1 li a.dribbble:hover {
+.single-social-content1 li a.heroku:hover {
     background-color: transparent;
-    border: 1px solid #fd5995;
-    color: #fd5995;
+    border: 1px solid #6567a5;
+    color: #6567a5;
 }
+
+/*--------------------------------End Hover-------*/
 
 .single-social-content1 li a.stroke-facebook:hover {
     background-color: #4565c7;
@@ -12255,6 +12258,17 @@ blockquote.blockquote-style2 {
 
 /*------- 58. Shortcode testimonial --------*/
 
+#headshot img {
+    border-radius: 50%;
+}
+
+.cropped1 {
+    width: 250px; /* width of container */
+    height: 250px; /* height of container */
+    object-fit: cover;
+    object-position: 10%; 
+}
+
 .sc-testi-content .single-testimonial-2 > p {
     width: 61%;
 }
@@ -12722,3 +12736,4 @@ span.progress-digit {
     font-size: 15px;
     font-style: italic;
 }
+

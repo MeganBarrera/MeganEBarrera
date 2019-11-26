@@ -1,42 +1,217 @@
 <main>
+
+        {{!-- <!-- Timeline CSS -->
+            <link title="timeline-styles" rel="stylesheet" type="text/css" href="../timeline3/css/timeline.css">
+            <link title="timeline-styles" rel="stylesheet" type="text/css" href="../assets/css/timeline.css">
+        <!-- Timeline JS -->
+            <script src="../timeline3/js/timeline.js"></script>
+            <script src="../timeline3/js/timeline-min.js"></script> --}}
+
         <!-- breadcrumb area -->
-        <div class="breadcrumb-area bg-img pt-230 pb-152 default-overlay-2" style="background-image: url(assets/img/banner/breadcrumb.jpg);">
-            <div class="container">
-                <div class="breadcrumb-content text-center">
-                    <h2>About</h2>
-                    <ul>
-                        <li>
-                            <a href="/home">Home</a>
-                        </li>
-                        <li class="active">About</li>
-                    </ul>
+        <div class="breadcrumb-area bg-img pt-230 pb-152 default-overlay-2" style="background-image: url(assets/img/about/about-header-1920x475.png);">
+        </div>
+        <div class="about-area">
+            {{!-- <div class="container">
+                <div class="portfolio-menu-active portfolio-menu-1 pro-menu-btn text-center mb-50">
+                    <button class="active" data-filter="*">Timeline</button>
+                    <button data-filter=".BrandManagement">Statistics</button>
+                    <button data-filter=".DigitalMarketing">Skills</button>
+                    <button data-filter=".DigitalMarketing">Outside The Office</button>
+                </div>
+            </div> --}}
+                {{!-- <div class="section-title text-center mb-50">
+                    <p>Check out my work experience throughout the years and see what I've been up to. For more information and to take a look at some of my work in depth, see the <a href="/experience">Experience</a> tab.</p>
                 </div>
             </div>
         </div>
-        <div class="about-area pt-120 pb-120">
+
+            <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+      <!-- TL.Timeline Constructor -->
+      <script type="text/javascript">
+        var options = {
+            start_at_end: false,
+            hash_bookmark: false,
+            scale_factor: 3,
+            optimal_tick_width: 100,
+            timenav_height: 250,
+            start_at_slide: 0,
+        };
+
+        timeline = new TL.Timeline('timeline-embed',
+          'https://docs.google.com/spreadsheets/d/1_ZSxQEu59lNczRGqdG00DZVDnQAqxjKLSNhWkfzoSLU/edit#gid=0',
+                options);
+      </script> --}}
+        <!-- Skills-->
+        <div class="shortcode-progress-bars-area pt-50 pb-120">
             <div class="container">
-                <div class="row d-flex align-items-center">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="about-us-wrap mr-20">
-                            <img src="assets/img/banner/banner-4.jpg" alt="">
-                            <div class="works-video">
-                                <a class="video-btn video-popup" href="https://www.youtube.com/watch?v=YY1ERM-NIBY">
-                                    <i class="ti-control-play"></i>
-                                </a>
+                <div class="brand-logo-wrap2 pt-50">
+                <div class="section-title text-center mb-50">
+                    <h2>Skills</h2>
+                </div>
+                </div>
+        <!-- Progress Bars-->
+        <div class="shortcode-progress-bars-area pb-50">
+            <div class="container">
+                <div class="progress-bar-wrap1">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="progress-content">
+                                    <!-- Tools -->
+                                    <div class="shortcode-social-content2 text-center">
+                                        <div class="single-social-content1 social-main-color mb-25">
+                                            <ul>
+                                                <li><a class="facebook" href="#"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                                                <li><a class="instagram" href="#"><i class="fab fa-instagram fa-lg"></i></a></li>
+                                                <li><a class="twitter" href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+                                                <li><a class="linkedin" href="#"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                                                <li><a class="pinterest" href="#"><i class="fab fa-youtube fa-lg"></i></a></li>
+                                                <li><a class="pinterest" href="#"><i class="fab fa-pinterest fa-lg"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="single-social-content1 social-main-color mb-25">
+                                            <ul>
+                                                <li><a class="facebook" href="#"><i class="fab fa-github fa-lg"></i></a></li>
+                                                <li><a class="facebook" href="#"><i class="fab fa-google fa-lg"></i></a></li>
+                                                <li><a class="facebook" href="#"><i class="fab fa-html5 fa-lg"></i></a></li>
+                                                <li><a class="pinterest" href="#"><i class="fab fa-css3 fa-lg"></i></a></li>
+                                                <li><a class="twitter" href="#"><i class="fab fa-js fa-lg"></i></a></li>
+                                                <li><a class="twitter" href="#"><i class="fab fa-node-js fa-lg"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="single-social-content1 social-main-color mb-25">
+                                            <ul>
+                                                <li><a class="facebook" href="#"><i class="far fa-file-excel fa-lg"></i></a></li>
+                                                <li><a class="instagram" href="#"><i class="far fa-file-powerpoint fa-lg"></i></a></li>
+                                                <li><a class="twitter" href="#"><i class="fab fa-windows fa-lg"></i></a></li>
+                                                <li><a class="pinterest" href="#"><i class="fab fa-apple fa-lg"></i></a></li>
+                                                <li><a class="twitter" href="#"><i class="fab fa-adobe fa-lg"></i></a></li>
+                                                <li><a class="twitter" href="#"><i class="far fa-file-pdf fa-lg"></i></a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="col-lg-8">
+                            <div class="skill-bar">
+                                <div class="row">
+                                    <div class="col-lg-6 pl-20 pr-20">
+                                        <div class="skill-bar-item">
+                                            <span>Brand Management</span>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-progress="80%" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                                                    <span class="text-top">66%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-bar-item">
+                                            <span>Video Production & Editing</span>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-progress="90%" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                                                    <span class="text-top">91%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-bar-item">
+                                            <span>Data Analytics & Analysis</span>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-progress="70%"  data-wow-duration="1.5s" data-wow-delay="1.2s">
+                                                    <span class="text-top">80%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 pl-20 pr-20">
+                                        <div class="skill-bar-item">
+                                            <span>Public Relations</span>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-progress="80%" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                                                    <span class="text-top">66%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-bar-item">
+                                            <span>SEO/SEM</span>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-progress="80%" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                                                    <span class="text-top">66%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-bar-item">
+                                            <span>Targetted Marketing</span>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-progress="80%" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                                                    <span class="text-top">66%</span>
+                                                </div>
+                                            </div>
+                                        </div>   
+                                    </div>                                                          
+                                </div>
+                                <div class="row pt-20">
+                                    <div class="col-lg-6 pl-20 pr-20">
+                                        <div class="skill-bar-item">
+                                            <span>Strategy & Planning</span>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-progress="80%" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                                                    <span class="text-top">66%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-bar-item">
+                                            <span>Event Planning & Promo</span>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-progress="90%" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                                                    <span class="text-top">91%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-bar-item">
+                                            <span>Concept, Layout & Styling</span>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-progress="70%"  data-wow-duration="1.5s" data-wow-delay="1.2s">
+                                                    <span class="text-top">80%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 pl-20 pr-20">
+                                        <div class="skill-bar-item">
+                                            <span>Paid/Organic Ads</span>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-progress="80%" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                                                    <span class="text-top">66%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-bar-item">
+                                            <span>Content Marketing</span>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-progress="80%" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                                                    <span class="text-top">66%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-bar-item">
+                                            <span>Email Campaigns</span>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-progress="80%" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                                                    <span class="text-top">66%</span>
+                                                </div>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="tools-content ml-20">
-                            <h2>Welcome To MeganEBarrera </h2>
-                            <p class="peragraph-blog">Fudink Shop is a premium HTML template designed and develoved from the ground up with the sole purpose of helping you create an astonishing, the beautiful and user friendly website that will boost .</p>
-                            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulp utate cursus a sit amet mauris accumsan velit.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="funfact-area pt-120 pb-90 gray-bg-4">
+    </div>
+    </div>
+        <!-- Stats-->
+        <div class="funfact-area pt-30 pb-10 gray-bg-4">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6">
@@ -86,55 +261,21 @@
                 </div>
             </div>
         </div>
-        <div class="shortcode-progress-bars-area pt-120 pb-120">
+        <!-- About-->    
+        <div class="team-area pt-120 pb-90">
             <div class="container">
-                <div class="section-title text-center mb-50">
-                    <h2>Our Skill</h2>
-                    <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris accumsan velit.</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="progress-content">
-                            <h4>Want More?</h4>
-                            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequ atpsum, nec sagittis sem nibh id elit. Duis intoed odio sit amet nibh vulputate cursus a sit amet into mauris accumsan velit.</p>
+                <div class="section-title text-center mb-40">
+                    <h2>More About <img src="assets/img/logo/MeganB.png"></h2>
+                    <div class="row">
+                        <div class="col-lg-8 pl-100 pr-100 pt-30 text-left">
+                            <p>Hello! My name is Megan Barrera and I am a marketing professional.</p>
                         </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="skill-bar">
-                            <div class="skill-bar-item">
-                                <span>Design</span>
-                                <div class="progress">
-                                    <div class="progress-bar wow fadeInLeft" data-progress="80%" data-wow-duration="1.5s" data-wow-delay="1.2s">
-                                        <span class="text-top">66%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-bar-item">
-                                <span>Development</span>
-                                <div class="progress">
-                                    <div class="progress-bar wow fadeInLeft" data-progress="90%" data-wow-duration="1.5s" data-wow-delay="1.2s">
-                                        <span class="text-top">91%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-bar-item">
-                                <span>Production</span>
-                                <div class="progress">
-                                    <div class="progress-bar wow fadeInLeft" data-progress="70%"  data-wow-duration="1.5s" data-wow-delay="1.2s">
-                                        <span class="text-top">80%</span>
-                                    </div>
-                                </div>
+                        <div class="col-lg-4">
+                            <div class="client-info pb-10" id="headshot">
+                                <img class="cropped1" src="assets/img/about/Headshot.png">
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="team-area pb-90">
-            <div class="container">
-                <div class="section-title text-center mb-50">
-                    <h2>Team Members</h2>
-                    <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris accumsan velit.</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6">
@@ -156,8 +297,7 @@
                                 </div>
                             </div>
                             <div class="team-content text-center">
-                                <h4>Mr.Mike Banding</h4>
-                                <span>Manager </span>
+                                <h4>Jayhawk</h4>
                             </div>
                         </div>
                     </div>
@@ -180,8 +320,7 @@
                                 </div>
                             </div>
                             <div class="team-content text-center">
-                                <h4>Mr.Peter Pan</h4>
-                                <span>Developer </span>
+                                <h4>Berkeley</h4>
                             </div>
                         </div>
                     </div>
@@ -204,8 +343,7 @@
                                 </div>
                             </div>
                             <div class="team-content text-center">
-                                <h4>Ms.Sophia</h4>
-                                <span>Designer </span>
+                                <h4>Travels</h4>
                             </div>
                         </div>
                     </div>
@@ -228,38 +366,8 @@
                                 </div>
                             </div>
                             <div class="team-content text-center">
-                                <h4>Mr.John Lee</h4>
-                                <span>Chairmen </span>
+                                <h4>Boxing</h4>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="brand-logo-area pb-120">
-            <div class="container">
-                <div class="brand-logo-pattern" style="background-image: url(assets/img/pattern/pattern-4.png);">
-                    <div class="brand-logo-active owl-carousel">
-                        <div class="single-brand-logo">
-                            <img src="assets/img/brand-logo/1.png" alt="">
-                        </div>
-                        <div class="single-brand-logo">
-                            <img src="assets/img/brand-logo/2.png" alt="">
-                        </div>
-                        <div class="single-brand-logo">
-                            <img src="assets/img/brand-logo/3.png" alt="">
-                        </div>
-                        <div class="single-brand-logo">
-                            <img src="assets/img/brand-logo/4.png" alt="">
-                        </div>
-                        <div class="single-brand-logo">
-                            <img src="assets/img/brand-logo/5.png" alt="">
-                        </div>
-                        <div class="single-brand-logo">
-                            <img src="assets/img/brand-logo/6.png" alt="">
-                        </div>
-                        <div class="single-brand-logo">
-                            <img src="assets/img/brand-logo/3.png" alt="">
                         </div>
                     </div>
                 </div>
