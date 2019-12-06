@@ -2063,6 +2063,10 @@ textarea:focus {
     background: #1e2127;
 }
 
+.themeblue-bg {
+    background: #99ccff;
+}
+
 .gray-bg {
     background: #e9eaea;
 }
@@ -5085,7 +5089,6 @@ a.video-btn:hover {
     color: #15273e;
     font-size: 12px;
     letter-spacing: 0.5px;
-    text-transform: uppercase;
 }
 
 .single-count:hover {
@@ -6246,7 +6249,7 @@ a.video-btn:hover {
 
 .client3-content > p {
     color: #444;
-    font-size: 18px;
+    font-size: 13px;
     line-height: 32px;
     margin: 0;
     font-family: "Gothic A1", sans-serif;
@@ -6254,7 +6257,7 @@ a.video-btn:hover {
 
 .client3-content {
     border: 1px solid #e7e9ec;
-    padding: 40px 40px 65px;
+    padding: 20px 30px 40px;
 }
 
 .client3-info {
@@ -11600,11 +11603,10 @@ blockquote.blockquote-style2 {
     background-color: #99ccff;
 }
 
-
 /*------- 52. Shortcode list --------*/
 
 .single-shortcode-list li {
-    font-size: 15px;
+    font-size: 13px;
     list-style: outside none none;
     margin: 0 0 10px;
     position: relative;
@@ -11719,25 +11721,141 @@ blockquote.blockquote-style2 {
     border: 1px solid transparent;
 }
 
-.single-social-content1 li a.pinterest {
-    background-color: #e52e39;
-    border: 1px solid transparent;
-}
-
 .single-social-content1 li a.linkedin {
     background-color: #0e76a8;
     border: 1px solid transparent;
 }
 
-.single-social-content1 li a.google {
-    background-color: #e73d30;
+.single-social-content1 li a.youtube {
+    background-color: #c4302b;
     border: 1px solid transparent;
 }
 
-.single-social-content1 li a.heroku {
-    background-color: #6567a5;
+.single-social-content1 li a.pinterest {
+    background-color: #e52e39;
     border: 1px solid transparent;
 }
+
+.single-social-content1 li a.github {
+    background-color: #24292e;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.google {
+    background-color: #179c52;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.html5 {
+    background-color: #f16529;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.css3 {
+    background-color: #2965f1;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.js {
+    background-color: #f0db4f;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.nodejs {
+    background-color: #6cc24a;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.excel {
+    background-color: #008000;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.pwrpt {
+    background-color: #D04423;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.windows {
+    background-color: #ff3300;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.apple {
+    background-color: #7d7d7d;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.adobe {
+    background-color: #ff3500;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.pdf {
+    background-color: #2d2e2d;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.bootstrap {
+    background-color: #602c50;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.git {
+    background-color: #f1502f;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.npm {
+    background-color: #cc3534;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.react {
+    background-color: #61dbfb;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.slack {
+    background-color: #cf0e5b;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.stack {
+    background-color: #f47f24;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.trello {
+    background-color: #007ac0;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.wp {
+    background-color: #444140;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.yammer {
+    background-color: #e36438;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.yarn {
+    background-color: #2c8ebb;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.safari {
+    background-color: #006cff;
+    border: 1px solid transparent;
+}
+
+.single-social-content1 li a.chrome {
+    background-color: #dd5144;
+    border: 1px solid transparent;
+}
+
 /*Tools Social Main Color Hover*/
 .single-social-content1 li a.facebook:hover {
     background-color: transparent;
@@ -11757,28 +11875,166 @@ blockquote.blockquote-style2 {
     color: #3da4fe;
 }
 
-.single-social-content1 li a.pinterest:hover {
-    background-color: transparent;
-    border: 1px solid #e52e39;
-    color: #e52e39;
-}
-
 .single-social-content1 li a.linkedin:hover {
     background-color: transparent;
     border: 1px solid #0e76a8;
     color: #0e76a8;
 }
 
-.single-social-content1 li a.google:hover {
+.single-social-content1 li a.youtube:hover {
     background-color: transparent;
-    border: 1px solid #e73d30;
-    color: #e73d30;
+    border: 1px solid #c4302b;
+    color: #c4302b;
 }
 
-.single-social-content1 li a.heroku:hover {
+.single-social-content1 li a.pinterest:hover {
     background-color: transparent;
-    border: 1px solid #6567a5;
-    color: #6567a5;
+    border: 1px solid #e52e39;
+    color: #e52e39;
+}
+
+.single-social-content1 li a.github:hover {
+    background-color: transparent;
+    border: 1px solid #24292e;
+    color: #24292e;
+}
+
+.single-social-content1 li a.google:hover {
+    background-color: transparent;
+    border: 1px solid #179c52;
+    color: #179c52;
+}
+
+.single-social-content1 li a.html5:hover {
+    background-color: transparent;
+    border: 1px solid #f16529;
+    color: #f16529;
+}
+
+.single-social-content1 li a.css3:hover {
+    background-color: transparent;
+    border: 1px solid #2965f1;
+    color: #2965f1;
+}
+
+.single-social-content1 li a.js:hover {
+    background-color: transparent;
+    border: 1px solid #f0db4f;
+    color: #f0db4f;
+}
+
+.single-social-content1 li a.nodejs:hover {
+    background-color: transparent;
+    border: 1px solid #6cc24a;
+    color: #6cc24a;
+}
+
+.single-social-content1 li a.excel:hover {
+    background-color: transparent;
+    border: 1px solid #008000;
+    color: #008000;
+}
+
+.single-social-content1 li a.pwrpt:hover {
+    background-color: transparent;
+    border: 1px solid #D04423;
+    color: #D04423;
+}
+
+.single-social-content1 li a.windows:hover {
+    background-color: transparent;
+    border: 1px solid #ff3300;
+    color: #ff3300;
+}
+
+.single-social-content1 li a.apple:hover {
+    background-color: transparent;
+    border: 1px solid #7d7d7d;
+    color: #7d7d7d;
+}
+
+.single-social-content1 li a.adobe:hover {
+    background-color: transparent;
+    border: 1px solid #ff3500;
+    color: #ff3500;
+}
+
+.single-social-content1 li a.pdf:hover {
+    background-color: transparent;
+    border: 1px solid #2d2e2d;
+    color: #2d2e2d;
+}
+
+.single-social-content1 li a.bootstrap:hover {
+    background-color: transparent;
+    border: 1px solid #602c50;
+    color: #602c50;
+}
+
+.single-social-content1 li a.git:hover {
+    background-color: transparent;
+    border: 1px solid #f1502f;
+    color: #f1502f;
+}
+
+.single-social-content1 li a.npm:hover {
+    background-color: transparent;
+    border: 1px solid #cc3534;
+    color: #cc3534;
+}
+
+.single-social-content1 li a.react:hover {
+    background-color: transparent;
+    border: 1px solid #61dbfb;
+    color: #61dbfb;
+}
+
+.single-social-content1 li a.slack:hover {
+    background-color: transparent;
+    border: 1px solid #cf0e5b;
+    color: #cf0e5b;
+}
+
+.single-social-content1 li a.stack:hover {
+    background-color: transparent;
+    border: 1px solid #f47f24;
+    color: #f47f24;
+}
+
+.single-social-content1 li a.trello:hover {
+    background-color: transparent;
+    border: 1px solid #007ac0;
+    color: #007ac0;
+}
+
+.single-social-content1 li a.wp:hover {
+    background-color: transparent;
+    border: 1px solid #444140;
+    color: #444140;
+}
+
+.single-social-content1 li a.yammer:hover {
+    background-color: transparent;
+    border: 1px solid #e36438;
+    color: #e36438;
+}
+
+.single-social-content1 li a.yarn:hover {
+    background-color: transparent;
+    border: 1px solid #2c8ebb;
+    color: #2c8ebb;
+}
+
+.single-social-content1 li a.safari:hover {
+    background-color: transparent;
+    border: 1px solid #006cff;
+    color: #006cff;
+}
+
+.single-social-content1 li a.chrome:hover {
+    background-color: transparent;
+    border: 1px solid #dd5144;
+    color: #dd5144;
 }
 
 /*--------------------------------End Hover-------*/
@@ -12263,8 +12519,8 @@ blockquote.blockquote-style2 {
 }
 
 .cropped1 {
-    width: 250px; /* width of container */
-    height: 250px; /* height of container */
+    width: 300px; /* width of container */
+    height: 300px; /* height of container */
     object-fit: cover;
     object-position: 10%; 
 }
@@ -12462,19 +12718,64 @@ blockquote.blockquote-style2 {
     overflow: hidden;
 }
 
-.skill-bar-item:nth-child(1) .progress-bar,
-.skill-bar-item-2:nth-child(1) .progress-bar {
-    width: 66%;
+.skill-bar-item-a .progress-bar,
+.skill-bar-item-2-a .progress-bar {
+    width: 60%;
 }
 
-.skill-bar-item:nth-child(2) .progress-bar,
-.skill-bar-item-2:nth-child(2) .progress-bar {
-    width: 91%;
+.skill-bar-item-b .progress-bar,
+.skill-bar-item-2-b .progress-bar {
+    width: 90%;
 }
 
-.skill-bar-item:nth-child(3) .progress-bar,
-.skill-bar-item-2:nth-child(3) .progress-bar {
-    width: 80%;
+.skill-bar-item-c .progress-bar,
+.skill-bar-item-2-c .progress-bar {
+    width: 30%;
+}
+
+.skill-bar-item-d .progress-bar,
+.skill-bar-item-2-d .progress-bar {
+    width: 45%;
+}
+
+.skill-bar-item-e .progress-bar,
+.skill-bar-item-2-e .progress-bar {
+    width: 30%;
+}
+
+.skill-bar-item-f .progress-bar,
+.skill-bar-item-2-f .progress-bar {
+    width: 90%;
+}
+
+.skill-bar-item-g .progress-bar,
+.skill-bar-item-2-g .progress-bar {
+    width: 90%;
+}
+
+.skill-bar-item-h .progress-bar,
+.skill-bar-item-2-h .progress-bar {
+    width: 95%;
+}
+
+.skill-bar-item-i .progress-bar,
+.skill-bar-item-2-i .progress-bar {
+    width: 95%;
+}
+
+.skill-bar-item-j .progress-bar,
+.skill-bar-item-2-j .progress-bar {
+    width: 30%;
+}
+
+.skill-bar-item-k .progress-bar,
+.skill-bar-item-2-k .progress-bar {
+    width: 90%;
+}
+
+.skill-bar-item-l .progress-bar,
+.skill-bar-item-2-l .progress-bar {
+    width: 90%;
 }
 
 .progress-content > h4 {
