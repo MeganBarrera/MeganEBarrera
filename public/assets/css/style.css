@@ -79,13 +79,67 @@
     1. Template default css
 -------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Playfair+Display:400,700,900|Gothic+A1:200,300,400,500,600,700,800,900|Montserrat:300,400,500,600,700,800|Roboto:300,400,500,700,900|Fira+Code:300,400,500,700,900|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Playfair+Display:400,700,900|Gothic+A1:200,300,400,500,600,700,800,900|Montserrat:300,400,500,600,700,800|Roboto:300,400,500,700,900|Fira+Code:300,400,500,700,900|Yantramanav:300,400,500,700,900|Satisfy');
+
+@font-face {
+    font-family: 'amalfi_coastregular';
+    src: url('../fonts/amalfi_coast-webfont.woff2') format('woff2'),
+         url('../fonts/amalfi_coast-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'topazianoncommercialregular';
+    src: url('../fonts/topazianoncommercial-webfont.woff2') format('woff2'),
+         url('../fonts/topazianoncommercial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.amalfi {
+    font-family: 'amalfi_coastregular';
+}
+
+.topazia {
+    font-family: 'topazianoncommercialregular';
+}
+
+.open-sans {
+    font-family: 'topazianoncommercialregular';
+}
+
+.playfair-display {
+    font-family: 'Playfair Display', serif;
+}
+
+.gothic-a1 {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.roboto { 
+    font-family: 'Roboto', sans-serif;
+}
+
+.fira-code {
+    font-family: 'Fira Code', monospace;
+}
+
+.yantramanav {
+    font-family: 'Yantramanav', sans-serif;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 14px;
-    color: #15273e;
+    color: #000000;
 }
 
 .img {
@@ -197,12 +251,12 @@ ul {
 }
 
 p {
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 300;
     line-height: 25px;
     color: #444;
     margin-bottom: 15px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 hr {
@@ -274,7 +328,6 @@ span.tooltip-content {
 .fix {
     overflow: hidden
 }
-
 
 /***************************
     transtion
@@ -3022,7 +3075,7 @@ html [type=button] {
 .main-menu ul li ul li a {
     color: #15273e;
     display: block;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 1;
@@ -4945,21 +4998,6 @@ a.video-btn:hover {
 @media screen and (max-width: 991px){
     .bg-blue {
         display: none;
-    }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1023px){
-    .bg-blue {
-        background-color: #99ccff;
-        width: 50%;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .bg-blue {
-        background-image: url("../../assets/img/home/about.png");    
-        background-repeat: no-repeat;
-        width: 100%;
     }
 }
 
