@@ -2938,16 +2938,18 @@ html [type=button] {
 
 .main-menu ul li a {
     color: #fff;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 122px;
     text-transform: uppercase;
     display: inline-block;
+    letter-spacing: 1px;
 }
 
 .main-menu ul li:hover > a,
 .theme-color-hover .main-menu ul li:hover > a,
 .header-black .main-menu ul li:hover > a {
+    border-bottom: 3px #99ccff solid;
     color: #99ccff;
 }
 
@@ -7118,7 +7120,6 @@ a.video-btn:hover {
     font-size: 32px;
     font-weight: 600;
     margin: 0;
-    font-family: "Montserrat", sans-serif;
 }
 
 .portfolio-content2 > h4 a {
@@ -7131,6 +7132,22 @@ a.video-btn:hover {
     position: relative;
     top: 10px;
     margin-left: 5px;
+}
+
+.home-header-white > h4 a { 
+    color: #ffffff !important;
+}
+
+.home-header-white:hover > h4 a {
+    color: #99ccff !important;
+}
+
+.home-header-black > h4 a{
+    color: #000000 !important;
+}
+
+.home-header-black:hover > h4 a {
+    color: #99ccff !important;
 }
 
 .portfolio-content3-title > h4 {
