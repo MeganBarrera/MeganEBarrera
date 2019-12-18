@@ -7033,9 +7033,18 @@ a.video-btn:hover {
     position: relative;
 }
 
-.header-area.header-height-2.stick {
-    position: fixed;
+@media screen and (max-width: 768px) {
+    .header-area.header-height-2.stick {
+        display: none;
+    }
 }
+
+@media screen and (min-width: 769px) {
+    .header-area.header-height-2.stick {
+        position: fixed;
+    }
+}
+
 
 .header-black.header-height-2.stick .main-menu ul li a {
     line-height: 70px;
@@ -13163,3 +13172,9 @@ span.progress-digit {
     font-style: italic;
 }
 
+<div class="col-lg-2 col-md-4 col-sm-6">
+<div class="single-count2 sc-count mb-30 text-center">
+    <h2 class="count text-white">749</h2>
+    <span>New Facebook <br> Followers</span>
+</div>
+</div>
